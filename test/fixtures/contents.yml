@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  location: MyString
+  type: 
+  category: 1
+  featured: MyString
+  badges: MyString
+  short_description: MyText
+
+two:
+  title: MyString
+  location: MyString
+  type: 
+  category: 1
+  featured: MyString
+  badges: MyString
+  short_description: MyText

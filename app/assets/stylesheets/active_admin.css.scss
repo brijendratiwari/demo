@@ -1,0 +1,81 @@
+// SASS variable overrides must be declared before loading up Active Admin's styles.
+//
+// To view the variables that Active Admin provides, take a look at
+// `app/assets/stylesheets/active_admin/mixins/_variables.css.scss` in the
+// Active Admin source.
+//
+// For example, to change the sidebar width:
+// $sidebar-width: 242px;
+
+// Active Admin's got SASS!
+@import "active_admin/mixins";
+@import "active_admin/base";
+@import "application.css";
+//@import "bootstrap";
+// Overriding any non-variable SASS must be done after the fact.
+// For example, to change the default status-tag color:
+//
+//   .status_tag { background: #6090DB; }
+.PUBLISHED{
+  background-color: #90d87c;
+  padding: 1px;
+  text-align: center;
+  text-decoration: none !important;
+  border: solid 1px #777777;
+  width: 120px;
+  display: block;
+  color: black!important;
+}
+.UNPUBLISHED{
+  background-color: #ffb3ac;
+  color: black!important;
+  text-align: center;
+  padding: 1px;
+  text-decoration: none !important;
+  border: solid 1px #777777;
+  width: 120px;
+  display: block;
+}
+.checkbox{
+  max-width: 70%;
+}
+
+#new_contents select{
+  min-width: 150px;
+}
+
+#new_contents .choice{
+  width: 10%;
+  float: left;
+}
+
+.checkbox label{
+  max-width: 10%;
+}
+.clear{
+  clear: both;
+}
+
+.short-desc .redactor-box{
+
+    width: 70%;
+    float: left;
+}
+
+.article  .redactor-box{
+
+  width: 70%;
+  float: left;
+}
+
+.redactor-editor{
+  height: 200px;
+}
+
+.article{
+  display: none;
+}
+#contents_images_input,.Manual,.YouTube,#contents_youtube_input,#contents_videofile_input,.video,#contents_video_input{
+  display:  none;
+}
+
